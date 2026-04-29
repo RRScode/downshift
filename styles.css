@@ -1,0 +1,13 @@
+
+header{
+    display:flex;
+}
+
+.headerLogo{
+    max-height: 100px;
+}
+
+
+nav ul{
+    display: flex;
+}
