@@ -9,6 +9,11 @@ header{
 }
 
 
+nav{
+    display:flex;
+    align-items: center;
+}
+
 nav ul{
     width:500px;
     display: flex;
@@ -16,4 +21,33 @@ nav ul{
     list-style: none;
 }
 
+
+.hero{
+    color:white;
+    background-color: black;
+    min-height: 800px;
+    display:flex;
+    align-content:center;
+    align-items:center;
+    justify-content:center;
+    flex-direction: column;
+}
+
+
+.intro {
+    min-height: 500px;
+    display:flex;
+    align-content:center;
+    align-items:center;
+    justify-content:center;
+    flex-direction: column;
+}
+
+.who {
+    max-width:900px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
 
