@@ -28,7 +28,16 @@ nav ul{
 }
 
 
-.hero{
+section {
+    min-height: 500px;
+    display:flex;
+    align-content:center;
+    align-items:center;
+    justify-content:center;
+    flex-direction: column;
+}
+
+#hero{
     color:white;
     background-color: black;
     min-height: 800px;
@@ -39,17 +48,7 @@ nav ul{
     flex-direction: column;
 }
 
-
-.intro {
-    min-height: 500px;
-    display:flex;
-    align-content:center;
-    align-items:center;
-    justify-content:center;
-    flex-direction: column;
-}
-
-.who {
+#who {
     max-width:900px;
     display:flex;
     flex-direction: column;
@@ -57,3 +56,17 @@ nav ul{
     text-align: center;
 }
 
+.priceLevels{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.priceCard{
+    width:300px;
+    margin:10px;
+    padding: 10px;
+    border: solid 2px black;
+    border-radius: 10px;
+    box-shadow: 10px 10px 5px #888888;
+}
